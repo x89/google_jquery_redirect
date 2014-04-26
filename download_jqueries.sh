@@ -21,7 +21,7 @@ do
 		cd "$dir"
 		curl -sSO "http://ajax.googleapis.com/ajax/libs/jquery/$version/jquery.min.js"
 		curl -sSO "http://ajax.googleapis.com/ajax/libs/jquery/$version/jquery.js"
-		cd "../.."
+		cd "../../../.."
 	fi
 done
 
